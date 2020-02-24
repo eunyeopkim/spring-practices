@@ -10,7 +10,7 @@ public class GuestbookController {
 	@ResponseBody
 	@RequestMapping("")
 	public String index() {
-		return "guestbook list";
+		return "/WEB-INF/views/index.jsp";
 	}
 	
 }
