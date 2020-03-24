@@ -7,6 +7,4 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = {"com.douzone.container.soundsystem"})
 public class CDPlayerConfig {
 	// Scanning 될 수 있도록 설정
-	
-	
 }
